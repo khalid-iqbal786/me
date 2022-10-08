@@ -33,11 +33,11 @@ section {
   padding: 50px 10%;
 }
 body.active {
-  color: #424242;
-  background-color: #0f0c27;
+  color: #0f0c27;
+  background-color: #212121;
 }
 body {
-  background: #003371;
+  background: #0f0c27;
   color: var(--text-color);
   
 }
