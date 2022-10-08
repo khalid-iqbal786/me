@@ -173,6 +173,15 @@ header.shadow {
   color: #424242;
 }
  
+.bxs-user{
+  color: #ffa400;
+}
+.bxs-phone{
+  color: #ffa400;
+}
+.bxs-envelope{
+  color: #ffa400;
+}
 
 .about-container {
   display: grid;
