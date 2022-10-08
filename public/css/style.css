@@ -186,6 +186,8 @@ header.shadow {
   font-size: var(--p-font);
   font-weight: 400;
   text-align: justify;
+  margin-right: 1rem;
+  margin-top: 3rem;
 }
 .information {
   margin: 1rem 0 1.4rem;
