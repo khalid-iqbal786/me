@@ -1,0 +1,37 @@
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.use(express.static('public'))
+app.use('/css', express.static(__dirname + 'public/css'))
+app.use('/js', express.static(__dirname + 'public/js'))
+app.use('/assets', express.static(__dirname + 'public/assets'))
+
+app.set('view engine', 'ejs')
+
+app.get('/home', (req, res) => {
+    res.render('home')
+})
+
+app.get('/portfolio', (req, res) => {
+    res.render('portfolio')
+})
+
+
+app.get('/about', (req, res) => {
+    res.render('about')
+})
+
+app.get('/skills', (req, res) => {
+    res.render('skills')
+})
+
+app.get('/services', (req, res) => {
+    res.render('services')
+})
+
+
+
+app.listen(port, () => {
+  console.log(`App listening at port ${port}`)
+})
