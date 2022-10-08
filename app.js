@@ -9,7 +9,7 @@ app.use('/assets', express.static(__dirname + 'public/assets'))
 
 app.set('view engine', 'ejs')
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.render('home')
 })
 
