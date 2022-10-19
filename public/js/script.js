@@ -2,8 +2,8 @@
     let header = document.querySelector('header');
     let menu = document.querySelector('#menu-icon');
     let navbar = document.querySelector('.navbar');
-     
-     
+  
+    
     window.addEventListener('scroll', () => {
         header.classList.toggle('shadow', window.scrollY > 0);
     });
@@ -15,6 +15,9 @@
         navbar.classList.remove('active');
     }
      
+    // active nav
+
+
     // Dark Mode
     let darkmode = document.querySelector('#darkmode');
      
