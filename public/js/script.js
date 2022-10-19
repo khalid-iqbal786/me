@@ -2,8 +2,11 @@
     let header = document.querySelector('header');
     let menu = document.querySelector('#menu-icon');
     let navbar = document.querySelector('.navbar');
+    let btnb = document.getElementById('btn')
+    function btn(){
+        btnb.textContent = "Bro Behance link will work soon!"
+    }
   
-    
     window.addEventListener('scroll', () => {
         header.classList.toggle('shadow', window.scrollY > 0);
     });
