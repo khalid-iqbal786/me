@@ -216,6 +216,7 @@ header.shadow {
   margin-left: 1rem;
 }
 .skills-container {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
