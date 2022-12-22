@@ -272,6 +272,7 @@ span {
   width: 80%;
 }
 .services-content {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
@@ -286,11 +287,11 @@ span {
   align-items: center;
   text-align: center;
   border-radius: 0.5rem;
-  border-bottom: 2px solid var(--main-color);
+  background-color: #ffffff;
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 .services-box:hover{
- background-color: #02225a;
+ background-color: #ffa400;
 }
 
 .services-box h3 {
@@ -307,7 +308,7 @@ span {
   color: var(--main-color);
 }
 .services-box:hover .bx{
-  color: #22cf91;
+  color: #ffffff;
 }
 .services-box a {
   color: var(--main-color);
@@ -315,7 +316,7 @@ span {
   font-weight: 500;
 }
 .services-box:hover a{
-  color: #8b8a8f;
+  color: #0f0c27;
 }
 .portfolio-content {
   position: relative;

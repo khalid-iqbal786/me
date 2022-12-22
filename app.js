@@ -30,6 +30,15 @@ app.get('/services', (req, res) => {
     res.render('services')
 })
 
+app.get('/socialmedia', (req, res) => {
+    res.render('socialmedia')
+})
+app.get('/motion', (req, res) => {
+    res.render('motion')
+})
+
+
+
 
 
 app.listen(port, () => {
