@@ -36,6 +36,9 @@ app.get('/socialmedia', (req, res) => {
 app.get('/motion', (req, res) => {
     res.render('motion')
 })
+app.get('/logos', (req, res) => {
+    res.render('logos')
+})
 
 
 
