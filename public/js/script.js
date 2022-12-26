@@ -20,7 +20,6 @@
      
     // active nav
 
-
     // Dark Mode
     let darkmode = document.querySelector('#darkmode');
      
@@ -33,3 +32,5 @@
             document.body.classList.remove('active');
         }
     }
+
+   
