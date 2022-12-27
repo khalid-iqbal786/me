@@ -27,7 +27,7 @@ const container = document.getElementById("run");
 function renderImages(){
     let imgsDOM = "";
     for (let i = 0; i < imgs.length; i++) {
-        imgsDOM += `<img alt=""  src="${imgs[i]}">`
+        imgsDOM += `<img class="portfolio-img" alt=""  src="${imgs[i]}">`
     };
     container.innerHTML = imgsDOM;
 }
